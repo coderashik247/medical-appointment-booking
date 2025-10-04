@@ -1,0 +1,169 @@
+
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/4nBpFNBF/images.jpg",
+    "name": "Dr. Ahsan Rahman",
+    "education": "MBBS, MD (Cardiology)",
+    "specialty": "Cardiologist",
+    "experience": "12 Years",
+    "registration_number": "BMDC-10001",
+    "available_days": ["Sunday", "Tuesday", "Thursday"],
+    "consultant_fee": 800
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/Kz98kHnq/images.jpg",
+    "name": "Dr. Sharmeen Akter",
+    "education": "MBBS, MS (Gynecology)",
+    "specialty": "Gynecologist",
+    "experience": "10 Years",
+    "registration_number": "BMDC-10002",
+    "available_days": ["Monday", "Wednesday", "Saturday"],
+    "consultant_fee": 700
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/Kxbdct1r/images.jpg",
+    "name": "Dr. Kamrul Hasan",
+    "education": "MBBS, FCPS (Medicine)",
+    "specialty": "Internal Medicine",
+    "experience": "15 Years",
+    "registration_number": "BMDC-10003",
+    "available_days": ["Sunday", "Monday", "Thursday"],
+    "consultant_fee": 900
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/3mwFKvcM/images.jpg",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, MD (Dermatology)",
+    "specialty": "Dermatologist",
+    "experience": "8 Years",
+    "registration_number": "BMDC-10004",
+    "available_days": ["Tuesday", "Thursday", "Friday"],
+    "consultant_fee": 600
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/DgrrvnhV/images.jpg",
+    "name": "Dr. Arif Chowdhury",
+    "education": "MBBS, MS (Orthopedics)",
+    "specialty": "Orthopedic Surgeon",
+    "experience": "11 Years",
+    "registration_number": "BMDC-10005",
+    "available_days": ["Monday", "Wednesday", "Friday"],
+    "consultant_fee": 1000
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/9krwFt3V/istockphoto-2163907414-612x612.jpg",
+    "name": "Dr. Faria Hossain",
+    "education": "MBBS, DCH (Pediatrics)",
+    "specialty": "Pediatrician",
+    "experience": "9 Years",
+    "registration_number": "BMDC-10006",
+    "available_days": ["Sunday", "Tuesday", "Thursday", "Saturday"],
+    "consultant_fee": 650
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/S4gbxfVP/istockphoto-1579992315-640x640.jpg",
+    "name": "Dr. Tanvir Ahmed",
+    "education": "MBBS, MS (Neurosurgery)",
+    "specialty": "Neurosurgeon",
+    "experience": "14 Years",
+    "registration_number": "BMDC-10007",
+    "available_days": ["Monday", "Thursday", "Friday"],
+    "consultant_fee": 1200
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/Q75s1cpb/istockphoto-2194294372-612x612.jpg",
+    "name": "Dr. Samia Karim",
+    "education": "MBBS, MD (Endocrinology)",
+    "specialty": "Endocrinologist",
+    "experience": "13 Years",
+    "registration_number": "BMDC-10008",
+    "available_days": ["Sunday", "Wednesday", "Friday"],
+    "consultant_fee": 750
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/WNk6CcPY/images.jpg",
+    "name": "Dr. Imran Ali",
+    "education": "MBBS, MD (Oncology)",
+    "specialty": "Oncologist",
+    "experience": "16 Years",
+    "registration_number": "BMDC-10009",
+    "available_days": ["Tuesday", "Thursday", "Saturday"],
+    "consultant_fee": 950
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/bgTf4WMB/istockphoto-1329569957-612x612.jpg",
+    "name": "Dr. Rubaida Yasmin",
+    "education": "MBBS, MS (ENT)",
+    "specialty": "ENT Specialist",
+    "experience": "7 Years",
+    "registration_number": "BMDC-10010",
+    "available_days": ["Monday", "Wednesday", "Thursday"],
+    "consultant_fee": 600
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/HDg94GGV/images.jpg",
+    "name": "Dr. Saifur Rahman",
+    "education": "MBBS, MS (Urology)",
+    "specialty": "Urologist",
+    "experience": "12 Years",
+    "registration_number": "BMDC-10011",
+    "available_days": ["Sunday", "Tuesday", "Friday"],
+    "consultant_fee": 850
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/z00sF2Q/istockphoto-2167454659-612x612.jpg",
+    "name": "Dr. Tahmina Akhter",
+    "education": "MBBS, MS (Ophthalmology)",
+    "specialty": "Eye Specialist",
+    "experience": "9 Years",
+    "registration_number": "BMDC-10012",
+    "available_days": ["Monday", "Thursday", "Saturday"],
+    "consultant_fee": 700
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/qFxgxj72/images.jpg",
+    "name": "Dr. Javed Khan",
+    "education": "MBBS, MD (Psychiatry)",
+    "specialty": "Psychiatrist",
+    "experience": "18 Years",
+    "registration_number": "BMDC-10013",
+    "available_days": ["Sunday", "Wednesday", "Friday"],
+    "consultant_fee": 900
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/F4510vq8/istockphoto-1203208307-640x640.jpg",
+    "name": "Dr. Mahira Nawal",
+    "education": "MBBS, MS (Obstetrics)",
+    "specialty": "Obstetrician",
+    "experience": "11 Years",
+    "registration_number": "BMDC-10014",
+    "available_days": ["Tuesday", "Thursday", "Saturday"],
+    "consultant_fee": 800
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/prMr6rdX/istockphoto-1132535791-640x640.jpg",
+    "name": "Dr. Rakibul Islam",
+    "education": "MBBS, MD (Gastroenterology)",
+    "specialty": "Gastroenterologist",
+    "experience": "10 Years",
+    "registration_number": "BMDC-10015",
+    "available_days": ["Monday", "Wednesday", "Friday"],
+    "consultant_fee": 850
+  }
+]
+

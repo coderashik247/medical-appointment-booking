@@ -13,7 +13,8 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:"/",
-                element:<Home></Home>
+                element:<Home></Home>,
+                loader: () => fetch('../../public/doctor.json')
             },
             {
                 path:"myBooking",
@@ -21,7 +22,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:"blogs",
-                element:<Blogs></Blogs>
+                element:<Blogs></Blogs>,
             },
             {
                 path:"contactUs",
