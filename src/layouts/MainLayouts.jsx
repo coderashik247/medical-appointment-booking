@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Components/Navbar/Navbar';
 import { Outlet } from 'react-router';
-import Container from '../Container/Container';
+import Container from '../Components/Container/Container';
 
 const MainLayouts = () => {
     return (

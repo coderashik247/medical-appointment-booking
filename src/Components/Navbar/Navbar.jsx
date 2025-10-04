@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-import logoImg from "../assets/logo.png";
+import logoImg from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -69,8 +69,8 @@ const Navbar = () => {
             </NavLink>
           </ul>
         </div>
-        <Link to={"/"} className="btn btn-ghost text-3xl">
-          <img src={logoImg} alt="" />
+        <Link to={"/"} className="btn btn-ghost lg:text-3xl text-lg">
+          <img className="w-8 h-8" src={logoImg} alt="" />
           Phudu
         </Link>
       </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="py-2 rounded-full bg-[#176AE5] text-white px-6 text-lg font-semibold">
+        <a className="py-2 lg:px-6 px-3 rounded-full bg-[#176AE5] text-white  lg:text-lg text-sm  font-semibold">
           Emergency
         </a>
       </div>
