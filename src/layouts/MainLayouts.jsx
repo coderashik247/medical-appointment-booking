@@ -1,9 +1,15 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import { Outlet } from 'react-router';
+import Container from '../Container/Container';
 
 const MainLayouts = () => {
     return (
-        <div>
-            <h1>Main Layout</h1>
+        <div className='bg-[#efefef]'>
+            <Container>
+                <Navbar></Navbar>
+            </Container>
+            <Outlet></Outlet>
         </div>
     );
 };
