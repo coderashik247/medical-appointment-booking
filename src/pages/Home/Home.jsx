@@ -1,3 +1,4 @@
+import { Outlet } from "react-router";
 import Banner from "../../Components/Banner/Banner";
 import Container from "../../Components/Container/Container";
 import Doctors from "../../Components/Doctors/Doctors";

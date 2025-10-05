@@ -9,7 +9,9 @@
     "experience": "12 Years",
     "registration_number": "BMDC-10001",
     "available_days": ["Sunday", "Tuesday", "Thursday"],
-    "consultant_fee": 800
+    "consultant_fee": 800,
+    "working_at": "Dhaka Medical College Hospital",
+    "description": "Dr. Ahsan Rahman is an experienced cardiologist specializing in advanced treatments for heart disease and cardiac care. He has performed numerous successful procedures and is known for his empathetic approach to patients. His focus is on preventive cardiology and promoting a healthy lifestyle."
   },
   {
     "id": 2,
@@ -20,7 +22,9 @@
     "experience": "10 Years",
     "registration_number": "BMDC-10002",
     "available_days": ["Monday", "Wednesday", "Saturday"],
-    "consultant_fee": 700
+    "consultant_fee": 700,
+    "working_at": "Square Hospital, Dhaka",
+    "description": "Dr. Sharmeen Akter is dedicated to women’s health and has a decade of experience in gynecology and obstetrics. She is skilled in managing high-risk pregnancies and reproductive health issues. Her compassionate care ensures patients feel supported throughout their treatment journey."
   },
   {
     "id": 3,
@@ -31,7 +35,9 @@
     "experience": "15 Years",
     "registration_number": "BMDC-10003",
     "available_days": ["Sunday", "Monday", "Thursday"],
-    "consultant_fee": 900
+    "consultant_fee": 900,
+    "working_at": "United Hospital, Dhaka",
+    "description": "Dr. Kamrul Hasan specializes in internal medicine with expertise in chronic disease management and critical care. With 15 years of experience, he has treated a wide range of complex conditions. His patient-first philosophy ensures high-quality and personalized medical care."
   },
   {
     "id": 4,
@@ -42,7 +48,9 @@
     "experience": "8 Years",
     "registration_number": "BMDC-10004",
     "available_days": ["Tuesday", "Thursday", "Friday"],
-    "consultant_fee": 600
+    "consultant_fee": 600,
+    "working_at": "Ibn Sina Medical College Hospital",
+    "description": "Dr. Nusrat Jahan is a dermatologist with expertise in treating skin disorders, cosmetic dermatology, and laser therapy. She has helped thousands of patients regain confidence by improving their skin health. Her friendly approach creates a comfortable environment for patients of all ages."
   },
   {
     "id": 5,
@@ -53,7 +61,9 @@
     "experience": "11 Years",
     "registration_number": "BMDC-10005",
     "available_days": ["Monday", "Wednesday", "Friday"],
-    "consultant_fee": 1000
+    "consultant_fee": 1000,
+    "working_at": "National Institute of Traumatology and Orthopedic Rehabilitation (NITOR)",
+    "description": "Dr. Arif Chowdhury is an orthopedic surgeon specializing in joint replacement and trauma surgeries. He has successfully performed numerous complex operations, helping patients regain mobility. His expertise lies in both surgical and non-surgical management of orthopedic conditions."
   },
   {
     "id": 6,
@@ -64,7 +74,9 @@
     "experience": "9 Years",
     "registration_number": "BMDC-10006",
     "available_days": ["Sunday", "Tuesday", "Thursday", "Saturday"],
-    "consultant_fee": 650
+    "consultant_fee": 650,
+    "working_at": "Popular Diagnostic Center",
+    "description": "Dr. Faria Hossain is a pediatrician dedicated to children’s health and development. She provides expert care for newborns, infants, and young children with a focus on preventive healthcare. Parents trust her for her warm, approachable nature and commitment to child wellness."
   },
   {
     "id": 7,
@@ -75,7 +87,9 @@
     "experience": "14 Years",
     "registration_number": "BMDC-10007",
     "available_days": ["Monday", "Thursday", "Friday"],
-    "consultant_fee": 1200
+    "consultant_fee": 1200,
+    "working_at": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+    "description": "Dr. Tanvir Ahmed is a highly skilled neurosurgeon with expertise in brain and spine surgeries. His advanced surgical skills have saved countless lives in critical conditions. He is also actively involved in medical research and training young surgeons."
   },
   {
     "id": 8,
@@ -86,7 +100,9 @@
     "experience": "13 Years",
     "registration_number": "BMDC-10008",
     "available_days": ["Sunday", "Wednesday", "Friday"],
-    "consultant_fee": 750
+    "consultant_fee": 750,
+    "working_at": "Birdem General Hospital",
+    "description": "Dr. Samia Karim is an endocrinologist specializing in diabetes and hormonal disorders. She has played a vital role in spreading awareness about diabetes management in Bangladesh. Her patient-centered care emphasizes education and lifestyle modification."
   },
   {
     "id": 9,
@@ -97,7 +113,9 @@
     "experience": "16 Years",
     "registration_number": "BMDC-10009",
     "available_days": ["Tuesday", "Thursday", "Saturday"],
-    "consultant_fee": 950
+    "consultant_fee": 950,
+    "working_at": "Delta Medical College & Hospital",
+    "description": "Dr. Imran Ali is an oncologist with extensive experience in cancer treatment and chemotherapy. He is committed to providing advanced cancer care and emotional support to patients. His holistic approach includes both medical expertise and compassionate guidance."
   },
   {
     "id": 10,
@@ -108,7 +126,9 @@
     "experience": "7 Years",
     "registration_number": "BMDC-10010",
     "available_days": ["Monday", "Wednesday", "Thursday"],
-    "consultant_fee": 600
+    "consultant_fee": 600,
+    "working_at": "Labaid Hospital",
+    "description": "Dr. Rubaida Yasmin is an ENT specialist focusing on ear, nose, and throat disorders. She has helped many patients with hearing loss, sinus problems, and throat issues. Her dedication to modern ENT treatments ensures effective results for her patients."
   },
   {
     "id": 11,
@@ -119,7 +139,9 @@
     "experience": "12 Years",
     "registration_number": "BMDC-10011",
     "available_days": ["Sunday", "Tuesday", "Friday"],
-    "consultant_fee": 850
+    "consultant_fee": 850,
+    "working_at": "Anwar Khan Modern Hospital",
+    "description": "Dr. Saifur Rahman is a urologist with expertise in kidney stones, urinary tract issues, and male reproductive health. He has performed many successful procedures with a high patient recovery rate. His thorough and patient-friendly care makes him highly trusted."
   },
   {
     "id": 12,
@@ -130,7 +152,9 @@
     "experience": "9 Years",
     "registration_number": "BMDC-10012",
     "available_days": ["Monday", "Thursday", "Saturday"],
-    "consultant_fee": 700
+    "consultant_fee": 700,
+    "working_at": "Islamia Eye Hospital",
+    "description": "Dr. Tahmina Akhter is an eye specialist providing comprehensive eye care including cataract and vision correction treatments. She has a special interest in pediatric ophthalmology and preventive eye care. Patients appreciate her gentle and thorough approach."
   },
   {
     "id": 13,
@@ -141,7 +165,9 @@
     "experience": "18 Years",
     "registration_number": "BMDC-10013",
     "available_days": ["Sunday", "Wednesday", "Friday"],
-    "consultant_fee": 900
+    "consultant_fee": 900,
+    "working_at": "National Institute of Mental Health",
+    "description": "Dr. Javed Khan is a psychiatrist with nearly two decades of experience in treating mental health disorders. He is known for his compassionate counseling and holistic treatment plans. His dedication to mental well-being has positively impacted thousands of patients."
   },
   {
     "id": 14,
@@ -152,7 +178,9 @@
     "experience": "11 Years",
     "registration_number": "BMDC-10014",
     "available_days": ["Tuesday", "Thursday", "Saturday"],
-    "consultant_fee": 800
+    "consultant_fee": 800,
+    "working_at": "Central Hospital Dhaka",
+    "description": "Dr. Mahira Nawal is an obstetrician experienced in pregnancy care, deliveries, and women’s reproductive health. She is skilled in handling high-risk cases with utmost care and precision. Her patients trust her for her professionalism and friendly support."
   },
   {
     "id": 15,
@@ -163,7 +191,9 @@
     "experience": "10 Years",
     "registration_number": "BMDC-10015",
     "available_days": ["Monday", "Wednesday", "Friday"],
-    "consultant_fee": 850
+    "consultant_fee": 850,
+    "working_at": "Evercare Hospital Dhaka",
+    "description": "Dr. Rakibul Islam is a gastroenterologist specializing in digestive system and liver diseases. His expertise includes endoscopy, colonoscopy, and advanced treatments for gastrointestinal disorders. He is dedicated to improving digestive health through patient education and modern therapies."
   }
 ]
 

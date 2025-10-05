@@ -1,8 +1,11 @@
+import { Link } from "react-router";
 import doctorImg from "../../assets/doctor.png";
 import { GoPlusCircle } from "react-icons/go";
 
 const Doctor = ({doctor}) => {
-      const { image, name, education,  experience, registration_number } = doctor
+      const {image, name, education,  experience, registration_number } = doctor
+
+
   return (
     <>
       <section className="flex flex-col space-y-5 dark:bg-gray-50 p-5 rounded-2xl">
@@ -31,9 +34,9 @@ const Doctor = ({doctor}) => {
             <GoPlusCircle />
             <p>Reg No: BD {registration_number} </p>
           </div>
-          <button className="border-blue-700 border text-blue-700 font-bold py-2 rounded-full hover:bg-blue-700 hover:text-white mb-3">
+          <Link to={`doctor/${registration_number}`} className="border-blue-700 border text-blue-700 font-bold py-2 rounded-full hover:bg-blue-700 hover:text-white mb-3 text-center">
             View Details
-          </button>
+          </Link>
         </div>
       </section>
     </>
