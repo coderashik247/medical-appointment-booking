@@ -1,12 +1,27 @@
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigate } from "react-router";
 import Container from "../Container/Container";
 import { GoPlusCircle } from "react-icons/go";
 import { CiCircleQuestion } from "react-icons/ci";
+import { saveDoctors } from "../../utils";
+// import { useContext } from "react";
+// import { DoctorContext } from "../../Context/DoctorContext";
+
+
 
 const Profile = () => {
   const profileData = useLoaderData();
+  const navigate = useNavigate();
+  // const {setSelectedDoctor} = useContext(DoctorContext);
   // console.log(profileData);
   //   const {image, name, education,  experience, registration_number } = doctor
+
+  const handleBooking = (doctor) =>{
+    // setSelectedDoctor(profileData);
+    saveDoctors(doctor)
+    navigate('/myBooking');
+    
+  }
+
   const {
     description,
     image,
@@ -35,9 +50,8 @@ const Profile = () => {
               <p className="text-lg text-[#0f0f0f99]"> {education} </p>
               <p className="text-lg text-[#0f0f0f99]"> {specialty} </p>
               <p className="text-lg text-[#0f0f0f99] ">
-                Working at:
-                <p className="text-black my-3"> {working_at} </p>
-              </p>
+                Working at:</p>
+              <p className="text-black my-3"> {working_at} </p>
               <div className="border-dashed border-y-2 border-[#0f0f0f50] flex justify-start items-center">
                 <div className="flex justify-start gap-3 items-center text-[#0f0f0f99] my-3">
                   <GoPlusCircle />
@@ -47,7 +61,7 @@ const Profile = () => {
               <div>
                 <span className="text-base font-bold text-[#0f0f0f]">Availability</span> 
                 <span className="p-4">
-                  {available_days.map(day => <button className="bg-[#ffa00033] mx-3 px-3 py-1 rounded-xl text-[#ffa000]"> {day} </button> )}
+                  {available_days.map((day, index) => <button key={index} className="bg-[#ffa00033] mx-3 px-3 py-1 rounded-xl text-[#ffa000]"> {day} </button> )}
                 </span>
               </div>
               <div>
@@ -68,7 +82,7 @@ const Profile = () => {
 
           </div>
           <p className="bg-[#ffa00033] mx-3 px-3 py-1 rounded-xl text-[#ffa000] flex justify-between items-center mt-4"> <CiCircleQuestion className="mr-2" /> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation. </p>
-          <button className=" bg-[#176AE5] my-6 py-3 rounded-full w-11/12 mx-auto text-white font-bold hover:cursor-pointer hover:bg-[#95b8ec83] hover:text-[#176AE5] hover:border-[#176AE5] hover:border " >Book Appointment Now </button>
+          <button onClick={() => handleBooking(profileData)} className=" bg-[#176AE5] my-6 py-3 rounded-full w-11/12 mx-auto text-white font-bold hover:cursor-pointer hover:bg-[#95b8ec83] hover:text-[#176AE5] hover:border-[#176AE5] hover:border " >Book Appointment Now </button>
         </div>
       </div>
     </Container>
